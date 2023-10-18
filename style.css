@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Open Sans';
 }
 
 body {
@@ -12,6 +12,7 @@ body {
 nav {
     display: flex;
     align-self: start;
+    margin-bottom: 5px;
 }
 
 nav .bars{
@@ -94,4 +95,83 @@ nav .icons .noti{
 nav .icons .pic img{
     border-radius: 50%;
 margin-right: 20px;
+}
+
+.left_sidebar{
+    position: fixed;
+   left: 0;
+   width:25%; /* Adjust the width as needed */
+   height: 100%; /* Takes the full height of the viewport */
+   background-color: #333; /* Customize the background color */
+   overflow: hidden; /* Enable scrolling if the sidebar content overflows */
+}
+
+.left_sidebar .head{
+   margin: 5% 0 3% 5%;
+}
+
+.left_sidebar .head b{
+   margin-right: 35%;
+}
+
+.left_sidebar .head button{
+   color: #fff;
+   font-weight: 600;
+   background-color: green;
+   padding: 3%;
+   border: none;
+   border-radius: 10%;
+}
+
+.left_sidebar .head button i{
+   margin-right: 5px;
+   font-size: 1.25em;
+}
+
+/* Style for the search bar container */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+}
+
+/* Style for the search input */
+#search-input {
+    background-color: transparent;
+    padding: 10px;
+    width: 300px; 
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.left_sidebar .repo{
+margin-bottom: 5%;
+}
+
+.left_sidebar .repo li{
+padding: 2% 3% 1% 10%;
+}
+
+.left_sidebar .repo li a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.left_sidebar .activity p{
+    font-size: 0.8em;
+font-weight: 600;
+margin: 0 0 2% 3%;
+}
+
+.left_sidebar .activity .search-activity{
+    background-color: transparent;
+    color: gray;
+    margin: 0 2% 0 2%;
+    padding: 10px;
+    border: 1px dotted gray;
+    border-radius: 5px;
+    
 }

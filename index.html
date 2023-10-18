@@ -11,11 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--fontawesome cdn-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Montserrat&family=Open+Sans&display=swap"
-        rel="stylesheet"> <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Gabarito&family=Montserrat&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"><!--Google Fonts-->
 </head>
 
 <body>
@@ -27,7 +25,7 @@
             </div>
             <img src="imgs/icon.png" alt=""> <!--github logo-->
             <h2>Dashboard</h2>
-            
+
             <div class="form">
                 <form action="search">
                     <input type="text" placeholder="Type / to search">
@@ -59,7 +57,34 @@
                 </div>
             </div>
         </nav>
+        <hr>
     </header>
+
+    <!-- Left Repository Bar -->
+    <div class="left_sidebar">
+        <div class="head">
+            <b>Top Repositories</b>
+            <button><i class="fa-solid fa-sd-card"></i>New</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Find a Repository...">
+        </div>
+        <ul class="repo">
+            <li><a href="">github_username/your-repo-1</a></li>
+            <li><a href="">github_username/your-repo-2</a></li>
+            <li><a href="">github_username/your-repo-3</a></li>
+            <li><a href="">github_username/your-repo-4</a></li>
+            <li><a href="">github_username/your-repo-5</a></li>
+            <li><a href="">github_username/your-repo-6</a></li>
+            <li><a href="">github_username/your-repo-7</a></li>
+        </ul>
+        <div class="activity">
+            <p>Recent Activity</p>
+            <div class="search-activity">
+                <p>When you take actions across GitHub, we'll provide link to that activity here.</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
