@@ -15,15 +15,16 @@ nav {
     margin-bottom: 5px;
 }
 
-nav .bars{
+nav .bars {
     margin: -5px 0 0 10px
 }
-nav .bars i{
+
+nav .bars i {
     border: 1px solid #525252c4;
     border-radius: 5px;
     margin-left: 5px;
     padding: 5px;
-    
+
 }
 
 nav i {
@@ -47,9 +48,9 @@ nav h2 {
 
 nav .form form input[type=text] {
     /*targetting the search bar using the attr selectors*/
-margin: 10px 0 0 0;
+    margin: 10px 0 0 0;
     background: transparent;
-    width: 180%;
+    width: 170%;
     outline: 0;
     border: 2px solid #999999;
     border-width: thin;
@@ -65,67 +66,72 @@ margin: 10px 0 0 0;
 }
 
 nav .form .icon {
-position: absolute;
-top: 0;
+    position: absolute;
+    top: 0;
 }
 
-nav .icons{
+nav .icons {
     display: flex;
 }
+
 nav .icons .plus {
     margin-left: 200px;
 }
 
-nav .icons .dropdown{
+nav .icons .dropdown {
     margin-left: -40px;
 }
 
-nav .icons .circle{
-margin-left: -10px;
+nav .icons .circle {
+    margin-left: -10px;
 }
 
-nav .icons .pull-request{
+nav .icons .pull-request {
     margin-left: -20px;
 }
 
-nav .icons .noti{
+nav .icons .noti {
     margin-left: -30px;
 }
 
-nav .icons .pic img{
+nav .icons .pic img {
     border-radius: 50%;
-margin-right: 20px;
+    margin-right: 20px;
 }
 
-.left_sidebar{
+.left_sidebar {
     position: fixed;
-   left: 0;
-   width:25%; /* Adjust the width as needed */
-   height: 100%; /* Takes the full height of the viewport */
-   background-color: #333; /* Customize the background color */
-   overflow: hidden; /* Enable scrolling if the sidebar content overflows */
+    left: 0;
+    width: 25%;
+    /* Adjust the width as needed */
+    height: 100%;
+    /* Takes the full height of the viewport */
+    background-color: #131313;
+    /* Customize the background color */
+    overflow: hidden;
+    /* Enable scrolling if the sidebar content overflows */
 }
 
-.left_sidebar .head{
-   margin: 5% 0 3% 5%;
+.left_sidebar .head {
+    margin: 5% 0 3% 5%;
 }
 
-.left_sidebar .head b{
-   margin-right: 35%;
+.left_sidebar .head b {
+    margin-right: 35%;
 }
 
-.left_sidebar .head button{
-   color: #fff;
-   font-weight: 600;
-   background-color: green;
-   padding: 3%;
-   border: none;
-   border-radius: 10%;
+.left_sidebar .head button {
+    color: #fff;
+    font-weight: 600;
+    background-color: green;
+    padding: 3%;
+    border: none;
+    border-radius: 10%;
 }
 
-.left_sidebar .head button i{
-   margin-right: 5px;
-   font-size: 1.25em;
+.left_sidebar .head button i {
+    margin-right: 5px;
+    font-size: 1.25em;
 }
 
 /* Style for the search bar container */
@@ -141,37 +147,256 @@ margin-right: 20px;
 #search-input {
     background-color: transparent;
     padding: 10px;
-    width: 300px; 
+    width: 300px;
     border: 1px solid gray;
     border-radius: 5px;
 }
 
-.left_sidebar .repo{
-margin-bottom: 5%;
+.left_sidebar .repo {
+    margin-bottom: 5%;
 }
 
-.left_sidebar .repo li{
-padding: 2% 3% 1% 10%;
+.left_sidebar .repo li {
+    padding: 2% 3% 1% 10%;
 }
 
-.left_sidebar .repo li a{
+.left_sidebar .repo li a {
     font-size: 0.9em;
     text-decoration: none;
     color: white;
 }
 
-.left_sidebar .activity p{
+.left_sidebar .activity p {
     font-size: 0.8em;
-font-weight: 600;
-margin: 0 0 2% 3%;
+    font-weight: 600;
+    margin: 0 0 2% 3%;
 }
 
-.left_sidebar .activity .search-activity{
+.left_sidebar .activity .search-activity {
     background-color: transparent;
     color: gray;
     margin: 0 2% 0 2%;
     padding: 10px;
     border: 1px dotted gray;
     border-radius: 5px;
-    
+}
+
+.center {
+    margin: 1% 1% 0 27%;
+}
+
+.center-head {
+    display: flex;
+    align-items: center;
+}
+
+.center-head a {
+    margin: 0 3% 0 35%;
+    color: rgb(3, 76, 233);
+    text-decoration: none;
+}
+
+.center-head button {
+    width: 7%;
+    padding: 0.7%;
+    background-color: transparent;
+    border: transparent;
+    border: 1px solid gray;
+    border-radius: 10%;
+    color: gray;
+}
+
+.center-head button i {
+    margin-right: 12%;
+}
+
+.center .updates {
+    font-size: 0.9em;
+    width: 65%;
+    margin: 3% 0 20px 0;
+    padding: 1%;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.center .updates h3 {
+    margin-bottom: 2%;
+}
+
+.center .updates p {
+    margin-bottom: 2%;
+}
+
+.center .updates a {
+    color: rgb(3, 76, 233);
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.center .code {
+    color: gray;
+    font-size: 0.8em;
+    position: relative;
+}
+
+.center .code i {
+    margin-right: 10px;
+}
+
+.center .main-content {
+    display: flex;
+}
+
+.center .new-repo {
+    width: 30%;
+    margin: 2% 3% 0 0;
+    border: 1px solid rgba(38, 38, 66, 0.425);
+    ;
+    background-color: rgba(38, 38, 66, 0.425);
+}
+
+.center .new-repo p {
+    padding: 4% 4% 0 4%;
+}
+
+.center .new-repo p.heading {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.center .new-repo p.main {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.center .new-repo p.name {
+    display: flex;
+}
+
+.center .new-repo .search-bar1 {
+    margin: 1% 2% 2% 3.5%;
+    font-size: 0.8em;
+}
+
+#search-input1 {
+    width: 62%;
+    padding: 2%;
+    margin-left: 3%;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#search-input1::placeholder {
+    color: gray;
+}
+
+.center .new-repo .radio {
+    margin: 1% 1% 1% 2%;
+}
+
+.center .main-content .new-repo .radio input[type='radio'] {
+    margin-right: 2%;
+}
+
+.center .main-content .new-repo .radio i {
+    color: gray;
+    font-size: 1.2em;
+    margin-right: 2%;
+}
+
+.center .main-content .new-repo .radio span.text {
+    font-weight: bold;
+}
+
+.center .main-content .new-repo .radio span.main-text {
+    color: gray;
+    font-size: 0.8em;
+    margin-left: 17%;
+}
+
+.center .main-content .new-repo button.new-repo {
+    margin: 3% 0 0 3%;
+    border-radius: 6px;
+    width: 70%;
+    padding: 3%;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    background-color: green;
+}
+
+.center .main-content .intro {
+    width: 30%;
+    margin: 2% 3% 0 0;
+    border: 1px solid rgba(38, 38, 66, 0.425);
+    background-color: rgba(38, 38, 66, 0.425);
+}
+
+.center .main-content .intro {
+    padding: 1% 2% 0 2%;
+}
+
+.center .main-content .intro p.heading {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.center .main-content .intro p.main {
+    margin: 2% 0 1% 0;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.center .main-content .intro .search-bar1 {
+    font-size: 0.8em;
+}
+
+.center .main-content .intro .readme {
+    border: 1px solid rgba(62, 62, 104, 0.425);
+    font-family: monospace;
+    padding: 5%;
+}
+
+.center .main-content .intro .readme span {
+    font-family: monospace;
+    color: gray;
+}
+
+.center .main-content .intro button {
+    margin-top: -2%;
+    font-family: 'Open Sans';
+    float: right;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    padding: 1%;
+}
+
+.center .main-content .intro ol {
+    border: 1px solid rgba(62, 62, 104, 0.425);
+}
+
+.center .main-content .intro ol li::marker {
+    color: gray;
+}
+
+.center .main-content .intro ol li {
+    font-family: monospace;
+    padding: 2%;
+    margin-left: 15%;
+}
+
+.center .main-content .tools {
+    /* margin-left: 30%; */
+}
+
+.right_bar{
+    display: flex;
+    width: 30%;
+}
+
+.right_bar .head {
+display: flex;
+margin: -200% 0 0 255%;
 }
